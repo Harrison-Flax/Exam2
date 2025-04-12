@@ -2,7 +2,7 @@ from tasks import get_response, text_summarization, code_generator, writer, mult
 from benchmarks import write_log
 
 # Three Models: TinyLLama. TinyDolphin, Reader-lm
-models = ['tinyllama', 'tinydolphin', 'reader-lm']
+models = ['tinyllama', 'tinydolphin', 'reader-lm', 'DropAI']
 
 def main():
     # Stored questions separately
